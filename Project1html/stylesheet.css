@@ -1,0 +1,104 @@
+body {
+  background-color: #022F40;
+}
+
+h1 {
+  color: #DDFDFE;
+  text-align: center;
+}
+
+p {/*default for text within the p tag*/
+  font-family: verdana;
+  font-size: 20px;
+  color: beige; 
+}
+
+li a{/*sets up the stle for the buttons on the navigation bar*/
+    display: block;
+    padding: 5px;
+    color:beige;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{/* This changed the buttons in the naviagtaion bar when you hover over them */
+    background-color: #022F40;
+    color: white;
+}
+
+ul{/*general style for the ul mostly for the nav bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 530px;
+    background-color: #7A7D7D;
+    text-align: left;
+}
+
+#webpagegridcontainer{/*the div that contains the main content of a webpage*/
+    display:grid;
+    grid-template-columns: 1fr 100fr;
+    grid-gap: 30px;
+}
+
+#navbar{/*for the div of the nav bar*/
+    width:250px;
+}
+
+#login{/*This is the div for the center of the username and password forms */
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: #7A7D7D;
+    padding: 15px;
+    
+}
+
+#up{/*This is the stlye for the username and password input text for */
+    color: beige;
+}
+
+#topheader{/*style for the Expense Reimbursement System text at the top left corner of most pages*/
+    text-align: left;
+    width: 426px;
+    background-color: #7A7D7D;
+    padding: 5px;
+    font-size: 40px;
+    
+}
+
+#navoptions{/* style for the ul for the navigation bar */
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
+    text-align: center;
+}
+
+#navhead{/*Style for the word 'navigation' at the top of the navigation bar*/
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #DDFDFE;
+}
+
+#centerstage{/*style for the main area of the of the webpage when it's being used*/
+    display:grid;
+    width:auto;
+    padding: 10px;
+    background-color: #7A7D7D;
+    grid-template-rows: 1fr 13fr;
+}
+
+#centerstagehead{
+    color: #DDFDFE;
+    text-align: center;
+    margin:0;
+    text-decoration: underline
+}
+
+#centerstagebody{
+    padding:10px;
+}
