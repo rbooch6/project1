@@ -8,57 +8,40 @@ An expense reimbursement system
 * PostgreSQL
 * AWS
 * JUnit
+* HTML
+* CSS
+* JDBC
 
 ## Features
-Client
-* View balance
-* Deposit money
-* Withdraw money
+Users:
+* Are either managers, or employees
+* Can sign in and out
 
-Employee
-* Create new user account
+Employees:
+* Can view their own account
+* Can view all of their own requests
+* Can submit a reimbursement request
 
-Both
-* Sign in
-* sign out
+Managers:
+* Can create new users
+* Can view employees by ID
+* Can view all Employees
+* Can view requests by User ID
+* Can view all requests
 
 To-do list:
-Client
-* Transfer money
-* View transaction history
-* Apply for line of credit
+Users:
+* Can update their information
 
-Employee
-* Review credit requests
+Managers:
+* View the requests of a single employee
+
 
 ## Getting Started
-* Git clone command: https://github.com/rbooch6/project0.git (include all environment setup steps)
 
-The program was written using the eclipse IDE with the the package name being project0. It imports imports:
-* java.sql.Connection;
-* java.sql.Driver;
-* java.sql.DriverManager;
-* java.sql.SQLException;
-* java.util.Scanner;
-* java.util.InputMismatchException;
-
-It also connected to a PostgreSQL database running on AWS, however the database has since been stopped so there are currently test variables to show the program running
-
-* All the code required to get started
-* Images of what it should look like
 
 ## Usage
-The program is run within the system output using a scanner. Below is a list of user information in order to get the desired output. If the input is incorrect the program
-will tell inform the user.
-Client info:
-* username: client
-* password: password
-* account number: 1234
 
-Employee info:
-* username: employee
-* password: password
-* employee number: 123
 
 ## Contributors
 Solo project, created by Roger Bucci
