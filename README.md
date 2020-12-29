@@ -38,10 +38,20 @@ Managers:
 
 
 ## Getting Started
+Git clone command: https://github.com/rbooch6/project1.git
 
+The project used a database to access, however the database has since been shut down so that aspect of the code does not run anymore.
+
+The code is output in the system console as it never got connected to the HTML, the html is still included, just not attached to the java backend.
 
 ## Usage
+In order to run the project, the database needs to be in place which it is not. Information about the database:
+* It is a PostgreSQL database
+* It contains two tables
+* Users table with (int user_id, varchar username, varchar password, boolean is_manager, float money_in_account)
+* Requests table with (int user_id, long reqiest_id, boolean pending, long amount)
 
+The three variables at the top of the Main.java class (username, password, url) also will need to be changed to accommodate this new database
 
 ## Contributors
 Solo project, created by Roger Bucci
