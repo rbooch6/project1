@@ -1,6 +1,9 @@
 # Project1
 ## Project Description
-An expense reimbursement system. Users are either a manager or an employee. The feature of each case is listed below in the features
+An expense reimbursement system. Users are either a manager or an employee. The feature of each case is listed below in the features section.
+
+The program does not run correctly in it's current state as the database has been shut down, so there is nowhere to store and retrieve the data from.
+In the usage tab below, there is information to create a mock database for use with this program, however it has not been tested so results may not be desirable
 
 ## Technologies Used
 * Eclipse IDE
