@@ -1,6 +1,6 @@
 # Project1
 ## Project Description
-An expense reimbursement system
+An expense reimbursement system. Users are either a manager or an employee. The feature of each case is listed below in the features
 
 ## Technologies Used
 * Eclipse IDE
@@ -13,27 +13,27 @@ An expense reimbursement system
 * JDBC
 
 ## Features
-Users:
+#### Users:
 * Are either managers, or employees
 * Can sign in and out
 
-Employees:
+#### Employees:
 * Can view their own account
 * Can view all of their own requests
 * Can submit a reimbursement request
 
-Managers:
+#### Managers:
 * Can create new users
 * Can view employees by ID
 * Can view all Employees
 * Can view requests by User ID
 * Can view all requests
 
-To-do list:
-Users:
+### To-do list:
+#### Users:
 * Can update their information
 
-Managers:
+#### Managers:
 * View the requests of a single employee
 
 
